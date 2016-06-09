@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="photoshop">
+    <output-path>C:/MedClinic</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="draw.MainApp" />
+        <option name="description" value="topchik" />
+        <option name="htmlParamFile" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="paramFile" value="" />
+        <option name="title" value="Risovach" />
+        <option name="vendor" value="Petrushenko Yuliya" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="photoshop.jar">
+        <element id="module-output" name="photoshop" />
+      </element>
+    </root>
+  </artifact>
+</component>

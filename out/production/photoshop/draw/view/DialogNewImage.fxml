@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="200.0" maxWidth="300.0" minHeight="200.0" minWidth="300.0" prefHeight="200.0" prefWidth="300.0" styleClass="background" stylesheets="@dark.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="draw.view.DialogNewImageController">
+  <children>
+    <GridPane alignment="CENTER" hgap="10.0" prefHeight="75.0" prefWidth="274.0" vgap="10.0" AnchorPane.bottomAnchor="126.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <children>
+        <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="Width" />
+        <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="Height" GridPane.rowIndex="1" />
+        <TextField fx:id="width" text="600" GridPane.columnIndex="1" />
+        <TextField fx:id="height" text="400" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="140.0" minWidth="10.0" prefWidth="83.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="237.0" minWidth="10.0" prefWidth="231.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="185.0" layoutY="152.0" mnemonicParsing="false" onAction="#buttonOk" text="OK" />
+    <Button layoutX="228.0" layoutY="152.0" mnemonicParsing="false" onAction="#buttonCancel" text="Cancel" />
+  </children>
+</AnchorPane>
